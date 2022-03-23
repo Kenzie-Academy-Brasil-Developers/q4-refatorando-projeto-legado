@@ -1,4 +1,4 @@
-export const parse_book_title = (title) => {
+export const parseBookTitle = (title) => {
   const titleArr = title.split(" ");
   let new_str = "";
   titleArr.forEach((element) => {
@@ -8,3 +8,4 @@ export const parse_book_title = (title) => {
   });
   return new_str.trim();
 };
+
