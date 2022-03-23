@@ -3,7 +3,7 @@
  * https://jestjs.io/docs/configuration
  */
 
-module.exports = {
+export default {
   // All imported modules in your tests should be mocked automatically
   // automock: false,
 
@@ -14,16 +14,16 @@ module.exports = {
   // cacheDirectory: "/tmp/jest_rs",
 
   // Automatically clear mock calls, instances and results before every test
-  clearMocks: true,
+  // clearMocks: false,
 
   // Indicates whether the coverage information should be collected while executing the test
-  collectCoverage: true,
+  // collectCoverage: false,
 
   // An array of glob patterns indicating a set of files for which coverage information should be collected
   // collectCoverageFrom: undefined,
 
   // The directory where Jest should output its coverage files
-  coverageDirectory: "coverage",
+  // coverageDirectory: undefined,
 
   // An array of regexp pattern strings used to skip coverage collection
   // coveragePathIgnorePatterns: [
